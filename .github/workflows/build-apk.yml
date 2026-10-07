@@ -15,7 +15,7 @@ jobs:
 
       - name: Extract DLMS project
         run: |
-          unzip -q DLMS_Phone_3.0_FIXED.zip
+          unzip -q DLMS_Phone_3.1_PRO_SCROLL_16BAND.zip
           test -f DLMS/settings.gradle.kts
 
       - name: Set up JDK 17
